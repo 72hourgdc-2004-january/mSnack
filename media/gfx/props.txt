@@ -1,0 +1,4 @@
+moon.bmp
+cloud.bmp
+cloud.bmp
+fore.bmp

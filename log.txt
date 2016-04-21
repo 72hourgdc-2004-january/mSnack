@@ -1,0 +1,209 @@
+--Game Contest Proyect Started--
+
+
+-Init()
+
+ -InitVideo(WINDOWED)
+
+ -InitInput()
+
+ -InitSound()
+
+-Intro()
+
+ -ShowIntro()
+
+-Game()
+ -ShowMenu()
+  --SOUND media/snd/click.wav LOADED 
+
+ -BeginGame()
+   -Map Level Loaded
+  --SOUND media/snd/wind1.wav LOADED 
+
+  --Sprite Loaded media/gfx/moon.bmp
+ --Prop media/gfx/moon.bmp loaded
+  --Sprite Loaded media/gfx/cloud.bmp
+ --Prop media/gfx/cloud.bmp loaded
+  --Sprite Loaded media/gfx/cloud.bmp
+ --Prop media/gfx/cloud.bmp loaded
+  --Sprite Loaded media/gfx/fore.bmp
+ --Prop media/gfx/fore.bmp loaded
+ --Loading Action media/gfx/bloodbite/idle
+    --Sprite media/gfx/bloodbite/idle/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/idle/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/idle/0002.bmp loaded
+    --Sprite media/gfx/bloodbite/idle/0003.bmp loaded
+    --Sprite media/gfx/bloodbite/idle/0004.bmp loaded
+    --Sprite media/gfx/bloodbite/idle/0005.bmp loaded
+    --Sprite media/gfx/bloodbite/idle/0006.bmp loaded
+    --Sprite media/gfx/bloodbite/idle/0007.bmp loaded
+--Total Frames: 8
+ --Loading Action media/gfx/bloodbite/walking
+    --Sprite media/gfx/bloodbite/walking/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/walking/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/walking/0002.bmp loaded
+    --Sprite media/gfx/bloodbite/walking/0003.bmp loaded
+    --Sprite media/gfx/bloodbite/walking/0004.bmp loaded
+    --Sprite media/gfx/bloodbite/walking/0005.bmp loaded
+    --Sprite media/gfx/bloodbite/walking/0006.bmp loaded
+    --Sprite media/gfx/bloodbite/walking/0007.bmp loaded
+    --Sprite media/gfx/bloodbite/walking/0008.bmp loaded
+    --Sprite media/gfx/bloodbite/walking/0009.bmp loaded
+--Total Frames: 10
+ --Loading Action media/gfx/bloodbite/startjump
+    --Sprite media/gfx/bloodbite/startjump/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/startjump/0001.bmp loaded
+--Total Frames: 2
+ --Loading Action media/gfx/bloodbite/jump
+    --Sprite media/gfx/bloodbite/jump/0000.bmp loaded
+--Total Frames: 1
+ --Loading Action media/gfx/bloodbite/falljump
+    --Sprite media/gfx/bloodbite/falljump/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/falljump/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/falljump/0002.bmp loaded
+--Total Frames: 3
+ --Loading Action media/gfx/bloodbite/attack
+    --Sprite media/gfx/bloodbite/attack/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/attack/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/attack/0002.bmp loaded
+    --Sprite media/gfx/bloodbite/attack/0003.bmp loaded
+    --Sprite media/gfx/bloodbite/attack/0004.bmp loaded
+    --Sprite media/gfx/bloodbite/attack/0005.bmp loaded
+    --Sprite media/gfx/bloodbite/attack/0006.bmp loaded
+--Total Frames: 7
+ --Loading Action media/gfx/bloodbite/airattack
+    --Sprite media/gfx/bloodbite/airattack/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/airattack/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/airattack/0002.bmp loaded
+    --Sprite media/gfx/bloodbite/airattack/0003.bmp loaded
+    --Sprite media/gfx/bloodbite/airattack/0004.bmp loaded
+    --Sprite media/gfx/bloodbite/airattack/0005.bmp loaded
+    --Sprite media/gfx/bloodbite/airattack/0006.bmp loaded
+--Total Frames: 7
+ --Loading Action media/gfx/bloodbite/slide
+    --Sprite media/gfx/bloodbite/slide/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/slide/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/slide/0002.bmp loaded
+    --Sprite media/gfx/bloodbite/slide/0003.bmp loaded
+    --Sprite media/gfx/bloodbite/slide/0004.bmp loaded
+    --Sprite media/gfx/bloodbite/slide/0005.bmp loaded
+    --Sprite media/gfx/bloodbite/slide/0006.bmp loaded
+    --Sprite media/gfx/bloodbite/slide/0007.bmp loaded
+--Total Frames: 8
+ --Loading Action media/gfx/bloodbite/hurt
+    --Sprite media/gfx/bloodbite/hurt/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/hurt/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/hurt/0002.bmp loaded
+    --Sprite media/gfx/bloodbite/hurt/0003.bmp loaded
+    --Sprite media/gfx/bloodbite/hurt/0004.bmp loaded
+--Total Frames: 5
+ --Loading Action media/gfx/bloodbite/falldead
+    --Sprite media/gfx/bloodbite/falldead/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/falldead/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/falldead/0002.bmp loaded
+    --Sprite media/gfx/bloodbite/falldead/0003.bmp loaded
+    --Sprite media/gfx/bloodbite/falldead/0004.bmp loaded
+    --Sprite media/gfx/bloodbite/falldead/0005.bmp loaded
+    --Sprite media/gfx/bloodbite/falldead/0006.bmp loaded
+    --Sprite media/gfx/bloodbite/falldead/0007.bmp loaded
+    --Sprite media/gfx/bloodbite/falldead/0008.bmp loaded
+    --Sprite media/gfx/bloodbite/falldead/0009.bmp loaded
+--Total Frames: 10
+ --Loading Action media/gfx/bloodbite/dead
+    --Sprite media/gfx/bloodbite/dead/0000.bmp loaded
+--Total Frames: 1
+ --Loading Action media/gfx/bloodbite/brutalbreath
+    --Sprite media/gfx/bloodbite/brutalbreath/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/brutalbreath/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/brutalbreath/0002.bmp loaded
+    --Sprite media/gfx/bloodbite/brutalbreath/0003.bmp loaded
+    --Sprite media/gfx/bloodbite/brutalbreath/0004.bmp loaded
+    --Sprite media/gfx/bloodbite/brutalbreath/0005.bmp loaded
+    --Sprite media/gfx/bloodbite/brutalbreath/0006.bmp loaded
+    --Sprite media/gfx/bloodbite/brutalbreath/0007.bmp loaded
+--Total Frames: 8
+ --Loading Action media/gfx/bloodbite/brutaleat
+    --Sprite media/gfx/bloodbite/brutaleat/0000.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0001.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0002.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0003.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0004.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0005.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0006.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0007.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0008.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0009.bmp loaded
+    --Sprite media/gfx/bloodbite/brutaleat/0009.bmp loaded
+--Total Frames: 11
+Total actions: 13
+  --SOUND media/snd/wuz.wav LOADED 
+
+  --SOUND media/snd/wuz2.wav LOADED 
+
+  --SOUND media/snd/fall.wav LOADED 
+
+  --SOUND media/snd/punch.wav LOADED 
+
+  --SOUND media/snd/arr.wav LOADED 
+
+  --SOUND media/snd/eat.wav LOADED 
+
+Player::Load(0)
+Enemy::Load()
+ --Loading Action media/gfx/enemy/idle
+    --Sprite media/gfx/enemy/idle/0000.bmp loaded
+    --Sprite media/gfx/enemy/idle/0001.bmp loaded
+    --Sprite media/gfx/enemy/idle/0002.bmp loaded
+    --Sprite media/gfx/enemy/idle/0003.bmp loaded
+    --Sprite media/gfx/enemy/idle/0004.bmp loaded
+--Total Frames: 5
+ --Loading Action media/gfx/enemy/walking
+    --Sprite media/gfx/enemy/walking/0000.bmp loaded
+    --Sprite media/gfx/enemy/walking/0001.bmp loaded
+    --Sprite media/gfx/enemy/walking/0002.bmp loaded
+    --Sprite media/gfx/enemy/walking/0003.bmp loaded
+    --Sprite media/gfx/enemy/walking/0004.bmp loaded
+    --Sprite media/gfx/enemy/walking/0005.bmp loaded
+--Total Frames: 6
+ --Loading Action media/gfx/enemy/startjump FILE EMPTY
+ --Loading Action media/gfx/enemy/jump FILE EMPTY
+ --Loading Action media/gfx/enemy/falljump FILE EMPTY
+ --Loading Action media/gfx/enemy/attack
+    --Sprite media/gfx/enemy/attack/0000.bmp loaded
+    --Sprite media/gfx/enemy/attack/0001.bmp loaded
+    --Sprite media/gfx/enemy/attack/0002.bmp loaded
+    --Sprite media/gfx/enemy/attack/0003.bmp loaded
+--Total Frames: 4
+ --Loading Action media/gfx/enemy/airattack FILE EMPTY
+ --Loading Action media/gfx/enemy/slide FILE EMPTY
+ --Loading Action media/gfx/enemy/hurt
+    --Sprite media/gfx/enemy/hurt/0000.bmp loaded
+    --Sprite media/gfx/enemy/hurt/0001.bmp loaded
+    --Sprite media/gfx/enemy/hurt/0002.bmp loaded
+    --Sprite media/gfx/enemy/hurt/0003.bmp loaded
+    --Sprite media/gfx/enemy/hurt/0004.bmp loaded
+--Total Frames: 5
+ --Loading Action media/gfx/enemy/falldead
+    --Sprite media/gfx/enemy/falldead/0000.bmp loaded
+    --Sprite media/gfx/enemy/falldead/0001.bmp loaded
+    --Sprite media/gfx/enemy/falldead/0002.bmp loaded
+    --Sprite media/gfx/enemy/falldead/0003.bmp loaded
+--Total Frames: 4
+ --Loading Action media/gfx/enemy/dead
+    --Sprite media/gfx/enemy/dead/0000.bmp loaded
+--Total Frames: 1
+Total actions: 11
+  --SOUND media/snd/wuz.wav LOADED 
+
+  --SOUND media/snd/wuz2.wav LOADED 
+
+  --SOUND media/snd/fall.wav LOADED 
+
+  --SOUND media/snd/punch.wav LOADED 
+
+   -Play()
+ -Premature exit()
+ -DestroyEverything()
+
+--END OF GAME--

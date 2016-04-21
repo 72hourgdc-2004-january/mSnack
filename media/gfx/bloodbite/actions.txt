@@ -1,0 +1,13 @@
+idle
+walking
+startjump
+jump
+falljump
+attack
+airattack
+slide
+hurt
+falldead
+dead
+brutalbreath
+brutaleat
